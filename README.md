@@ -4,9 +4,13 @@
 
 این پروژه یک فروشگاه آنلاین گل به اسم **گل آرا** است و پروژه پایانی دانشگاه من می‌باشد.
 
+##  مشاهده سایت
+🌐 باز کردن سایت آنلاین (https://ayda-riyahi.github.io/golara-flower-shop/main.html)
+
 ## نحوه مشاهده
 - برای بهترین نتیجه از **Google Chrome** استفاده کنید.
 - زوم را روی **100%** قرار دهید (Menu → Zoom → 100%).  
+
 ## ساختار صفحات
 
 - `main.html` — صفحه اصلی فروشگاه  
@@ -26,13 +30,12 @@
 
 This project is an online flower shop called **Gol Ara** and serves as my **final university project**.
 
----
+## View the Live Site
+🌐open online site (https://ayda-riyahi.github.io/golara-flower-shop/main.html)
 
 ## How to view
 - For the best experience, use **Google Chrome**.
 - Set the zoom level to **100%** (Menu → Zoom → 100%).
-
----
 
 ## Page structure
 
@@ -41,12 +44,8 @@ This project is an online flower shop called **Gol Ara** and serves as my **fina
 - `productpage/` — Product category pages  
 - Other pages — The page names indicate their content  
 
----
-
 ## Technologies used
 - This project only uses **HTML, CSS, and JavaScript**.
-
----
 
 ## Additional notes
 - This version of the project is **not responsive** and may appear broken on smaller screens.  
