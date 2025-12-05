@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/yekan/Yekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Farsi-Digits/Vazir-Light-FD.woff') format('woff');
+    emplate-rows: auto 1fr auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    font-family: 'Vazir', sans-serif;
+    background-color: #f6f6f6;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Yekan, Vazir;
+    direction: rtl;
+}
+
+.container {
+    background: #fff;
+    padding: 50px 70px 50px 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    width: 800px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    left: 70px;
+    top: 18px;
+}
+
+h2 {
+    position: relative;
+    bottom: 300px;
+    right: 456px;
+    color: #323b2c;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 12px;
+    color: #394331;
+    text-align: right;
+    position: relative;
+    right: 4px;
+}
+
+.form-group-half {
+    width: 48%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px 5px 15px 5px;
+    margin: 0;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.input-field.invalid {
+    border-color: rgb(224, 9, 9);
+}
+
+.invalid-message {
+    color: red;
+    display: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+.message {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 12px;
+    background-color: #566947;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    font-size: 15px;
+    position: relative;
+    right: 207px;
+    top: 20px;
+}
+
+.btn:hover {
+    background-color: #445239;
+}
+
+#successMessage {
+    text-align: center;
+    position: relative;
+    top: 29px;
+    font-size: 15px;
+}
+
+.link {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+input::placeholder {
+    text-align: center;
+}

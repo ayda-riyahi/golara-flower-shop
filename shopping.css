@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/yekan/Yekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Farsi-Digits/Vazir-Light-FD.woff') format('woff');
+}
+
+body {
+
+    padding: 0px;
+    margin: 0px;
+    /* background-color:rgba(60,66,139,.04);  */
+    background-color: #f6f6f6;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Yekan, Vazir;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.newmenu{
+    width: 99%;
+    height: 140px;
+    background-color: #6f865c;
+    background-color: rgb(238, 208, 195);
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
+.div_link {
+    text-align: right;
+    position: relative;
+    top: 15px;
+    right: 50px;
+
+}
+
+.div_link_a {
+    color: rgb(100, 0, 38);
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.div_link_span {
+    color: rgb(148, 0, 57);
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.newdiv_text {
+
+    color: #ce4c66;
+    text-align: center;
+    position: relative;
+    top: 3px;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.cart-summary {
+    direction: rtl;
+    width: 400px;
+    height: 350px;
+    background-color: #e9e7e7a4;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 50px;
+    top: 120px;
+}
+
+.cart-summary h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #3d3d3d;
+    position: relative;
+    top: 20px;
+}
+
+.cart-summary table {
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.cart-summary table td {
+    padding: 25px 10px 5px 0px;
+    font-weight: lighter;
+    color: #3d3d3d;
+}
+
+.cart-summary table td:nth-child(even) {
+    padding: 25px 10px 2px 40px;
+    font-weight: lighter;
+    color: black;
+}
+
+.cart-summary hr {
+    border: 0;
+    height: 1px;
+    width: 370px;
+    background-color: #d1d1d1;
+    position: relative;
+    top: 16px;
+}
+
+.cart-summary a {
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+    padding: 8px 0;
+    background-color: #5d5d5d;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.cart-summary a:hover {
+    background-color: #454545;
+}
+
+#empty-cart-message {
+    position: relative;
+    left: 700px;
+    bottom: 140px;
+    font-weight: 100;
+    font-size: 18px;
+    background-color: #cbd6c0;
+    width: 300px;
+    padding: 15px 100px 15px 100px;
+    text-align: center;
+    color: #252424;
+    border-radius: 10px;
+}
+
+.product-list {
+    color: #2b2a2a;
+    direction: rtl;
+    width: 60%;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    position: relative;
+    bottom: 280px;
+    left: 503px;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.product-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-list table td {
+    padding: 10px;
+
+}
+
+.product-list table tr {
+    border: #6f865c 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    border-color: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+.product-list img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: 13px;
+}
+
+.product-list button {
+    background-color: rgb(139, 8, 8);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-list button:hover {
+    background-color: rgb(214, 22, 22);
+}
+
+.cost {
+    display: inline-block;
+    direction: rtl;
+    color: rgb(139, 8, 8);
+    position: relative;
+    top: 547px;
+    right: 913px;
+    font-size: small;
+}

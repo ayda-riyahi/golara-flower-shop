@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/yekan/Yekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Farsi-Digits/Vazir-Light-FD.woff') format('woff');
+}
+
+body {
+
+    padding: 0px;
+    margin: 0px;
+    /* background-color:rgba(60,66,139,.04);  */
+    background-color: #f6f6f6;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Yekan, Vazir;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.login-p {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: large;
+    color: #323b2c;
+}
+
+.container {
+    background: aliceblue;
+    background: #ffe3e763;
+    text-align: center;
+    width: 350px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(121, 121, 121, 0.04);
+    padding: 50px 50px 50px 50px;
+    border-radius: 30px;
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+
+.number {
+    color: #a20f40;
+    direction: rtl;
+    font-weight: lighter;
+    font-size: medium;
+    text-align: right;
+    position: relative;
+    left: 7px;
+    bottom: 21px;
+}
+
+.input-field {
+    direction: rtl;
+    width: 100%;
+    padding: 15px 7px 15px 7px;
+    border: 1px solid #ebdce1;
+    border-radius: 10px;
+    font-size: 16px;
+    position: relative;
+    right: 5px;
+    bottom: 10px;
+}
+
+.invalid-message {
+    color: red;
+    display: none;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.message {
+    direction: rtl;
+    font-size: 13px;
+    font-weight: 100;
+    margin: 10px 0px 15px 8px;
+    word-spacing: 2px;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 17px 0px;
+    width: 365px;
+    background-color: #889e73;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    top: 12px;
+    right: 3.9px;
+}
+
+.btn:hover {
+    background-color: #566947;
+}
+
+.link {
+    color: #445239;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

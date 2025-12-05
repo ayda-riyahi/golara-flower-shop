@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="stylesheet" href="shopping.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <div class="newmenu">
+        <div class="div_link">
+            <a href="http://127.0.0.1:5500/main.html#" class="div_link_a">خانه</a>
+            <span class="div_link_span">/</span>
+            <span class="div_link_span">سبد خرید</span>
+        </div>
+        <div class="newdiv_text">سبد خرید</div>
+    </div>
+    <p class="cost"> 50,000 هزار تومان هزینه ارسال به مجموع سبد خرید شما اضافه می شود.</p>
+    <div class="cart-summary">
+        <h2>مجموع سبد خرید</h2>
+        <table>
+            <tr>
+                <td>قیمت کل:</td>
+                <td id="total-price">0 تومان </td>
+            </tr>
+            <hr>
+            <tr>
+                <td>جمع کل:</td>
+                <td id="total-sum">0 تومان</td>
+            </tr>
+        </table>
+        <a href="http://127.0.0.1:5500/form-request.html">تکمیل سفارش</a>
+    </div>
+
+    <p id="empty-cart-message">سبد خرید شما در حال حاضر خالی است</p>
+
+    <div class="product-list" id="cart">
+        <table>
+            <tbody id="cart-items">
+                <!-- <tr>
+                    <td><img src="/photo/sabad1-1.webp" alt="محصول 1"></td>
+                    <td>محصول 1</td>
+                    <td>5000 تومان</td>
+                    <td>2</td>
+                    <td><button>حذف</button></td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <div id="footer-container"></div>
+    <script src="shopping.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product 22</title>
+    <link rel="stylesheet" href="productidpage.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <div class="newmenu">
+        <div class="div_link">
+            <a href="http://127.0.0.1:5500/main.html#" class="div_link_a1">خانه</a>
+            <span class="div_link_span">/</span>
+            <a href="http://127.0.0.1:5500/productpage/giahan.html" class="div_link_a2">گیاه آپارتمانی</a>
+            <span class="div_link_span">/</span>
+            <span class="div_link_span_p">سنسوریا ابلق</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <img id="largeImg" class="large-img" src="../photo/giahan4.jpg" alt="عکس بزرگ">
+        <div>
+            <img class="small-img" src="../photo/giahan4.jpg" alt="عکس کوچک 1">
+            <img class="small-img" src="../photo/giahan4-1.webp" alt="عکس کوچک 2">
+            <img class="small-img" src="../photo/giahan4-2.webp" alt="عکس کوچک 3">
+        </div>
+    </div>
+    <h2 class="name_table">سنسوریا ابلق</h2>
+    <table class="table1">
+        <tr class="tr1">
+            <td class="td1" style="padding-right: 42px;">طول</td>
+            <td class="td1" style="padding-right: 40px;">عرض</td>
+            <td class="td1" style="padding-right: 42px;">ارتفاع</td>
+        </tr>
+        <tr class="tr1">
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">65 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">60 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">160 سانتی متر</td>
+        </tr>
+    </table>
+    <table class="table1-1">
+        <tr class="tr1-1">
+            <td class="td1-1"> ویژگی های محصول</td>
+        </tr class="tr1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">آب: هفتگی</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">سختی نگهداری: آسان</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">نور: غیر مستقیم ولی پر نور</td>
+        </tr>
+    </table>
+    <Span class="price_1">2,950,000</Span>
+    <span class="price_2">تومان</span>
+    <div class="input-container">
+        <button onclick="decrement()" class="btn_input1">-</button>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" class="product-quantity">
+        <button onclick="increment()" class="btn_input2">+</button>
+    </div>
+    <br>
+    <button class="button" onclick="addToCart(this)">افزودن به سبد</button>
+    <div
+        style="width: 95%; margin: auto; border-bottom: 1px solid rgb(189, 189, 189); position: relative; bottom: 400px;">
+    </div>
+    <p class="text_first_header">توضیحات</p>
+    <p class="text_header1">نگاهی بر زیبایی های سنسوریا ابلق:</p>
+    <p class="text_p1">دیگر نیازی نیست به جنگل بروید! سانسوریا ابلق بزرگ با گلدان فلزی، جنگلی سبز و کوچک در کنار شما
+        خواهد بود. این گیاهِ همیشه جوان و نامیرا، از برترین گیاهان سم‌زدا است و همواره هوای سلامتِ ریه‌های<br> شما را
+        دارد. با سانسوریا ابلق بزرگ، انرژی مثبت و حس سرزندگی را به محیط اطراف تزریق کنید.</p>
+    <p class="text_p2">این جنگل کوچک و خانگی، همه ویژگی‌های یک جنگل واقعی را دارد. شمشیر‌های جادویی این گیاه لاکچری،
+        حامل شادابی و طراوت هستند و همزمان یک دستگاه طبیعیِ تصفیه کننده هوا نیز به شمار می‌روند.</p>
+
+    <p class="text_header2" style="margin-top: 50px;">روش نگه‌داری از گیاه سنسوریا ابلق:</p>
+
+    <p class="text_header3">آبیاری</p>
+    <p class="text_p3">هفته‌ای 1 بار در فصل گرم و 2 هفته یک بار در فصل‌ سرد، در صورت خشکی 2 تا 5 سانتی‌ متر از سطح خاک.
+    </p>
+    <p class="text_header4">خاک</p>
+    <p class="text_p4">خاکی که از قدرت زهکشی مناسبی برخوردار باشد</p>
+    <p class="text_header5">دما</p>
+    <p class="text_p5">20 تا 30 درجه سانتی گراد</p>
+    <p class="text_header5">روش مناسب تکثیر</p>
+    <p class="text_p5">قلمه زدن برگ، تکثیر از طریق پاجوش، کاشت بذر، تقسیم بوته و ریزوم</p>
+    <p class="text_header5">روش تامین رطوبت</p>
+    <p class="text_p5">غبارپاشی، دستگاه بخور سرد</p>
+    <p class="text_header5">میزان رطوبت مورد نیاز</p>
+    <p class="text_p5">متوسط</p>
+
+
+    <div class="container">
+        <h2>ثبت دیدگاه شما</h2>
+        <form action="#" method="post">
+            <label for="name">نام</label>
+            <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید" required>
+
+            <label for="email">ایمیل</label>
+            <input type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید" required>
+
+            <label for="comment">دیدگاه</label>
+            <textarea id="comment" name="comment" placeholder="متن دیدگاه خود را بنویسید" required></textarea>
+
+            <button type="submit" class="container_btn">ثبت دیدگاه</button>
+        </form>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>

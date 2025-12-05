@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product 1</title>
+    <link rel="stylesheet" href="productidpage.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <div class="newmenu">
+        <div class="div_link">
+            <a href="http://127.0.0.1:5500/main.html#" class="div_link_a1">خانه</a>
+            <span class="div_link_span">/</span>
+            <a href="http://127.0.0.1:5500/productpage/sabadgol.html" class="div_link_a2">سبد گل</a>
+            <span class="div_link_span">/</span>
+            <span class="div_link_span_p">سبد گل چوبی</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <img id="largeImg" class="large-img" src="../photo/sabad1.webp" alt="عکس بزرگ">
+        <div>
+            <img class="small-img" src="../photo/sabad1.webp" alt="عکس کوچک 3">
+            <img class="small-img" src="../photo/sabad1-1.webp" alt="عکس کوچک 1">
+            <img class="small-img" src="../photo/sabad1-2.webp" alt="عکس کوچک 2">
+        </div>
+    </div>
+    <h2 class="name_table">سبد گل چوبی</h2>
+    <table class="table1">
+        <tr class="tr1">
+            <td class="td1" style="padding-right: 42px;">طول</td>
+            <td class="td1" style="padding-right: 40px;">عرض</td>
+            <td class="td1" style="padding-right: 42px;">ارتفاع</td>
+        </tr>
+        <tr class="tr1">
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">35 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">30 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">30 سانتی متر</td>
+        </tr>
+    </table>
+    <table class="table1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">گل ها و آیتم های محصول</td>
+        </tr class="tr1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">4 شاخه گل رز </td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">20 شاخه آلسترومریا </td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">25 شاخه داوودی </td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">برگ و تزئینات لازم </td>
+            <td class="td1-1"></td>
+        </tr>
+    </table>
+    <Span class="price_1">2,260,000</Span>
+    <span class="price_2">تومان</span>
+    <div class="input-container">
+        <button onclick="decrement()" class="btn_input1">-</button>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" class="product-quantity">
+        <button onclick="increment()" class="btn_input2">+</button>
+    </div>
+    <br>
+    <button class="button" onclick="addToCart(this)">افزودن به سبد</button>
+    <div
+        style="width: 95%; margin: auto; border-bottom: 1px solid rgb(189, 189, 189); position: relative; bottom: 400px;">
+    </div>
+    <p class="text_first_header">توضیحات</p>
+    <p class="text_header1">مشخصات ظاهری سبد گل چوبی;</p>
+    <p class="text_p1">سبد چوبی با گل های رز، آلسترومریا و داوودی تزئین شده. اما صبر کنید، چیزی که این سبد گل را خاص
+        کرده تنها گل های آن نیست. بلکه به همراه تزئینات و برگ های لازم، سبد گل چوبی در هر مراسمی نقطه توجه قرار می‌گیرد.
+    </p>
+    <p class="text_p2">در جدول رو به رو تعداد گل های استفاده شده در سبد چوبی را بیان کردیم:</p>
+    <table class="table2">
+        <tr class="tr2">
+            <td class="td2">نام گل</td>
+            <td class="td2">تعداد گل</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل رز</td>
+            <td class="td2">۴ شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل آلسترومریا</td>
+            <td class="td2">۱۲ شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل داوودی</td>
+            <td class="td2">۱۰ شاخه</td>
+        </tr>
+    </table>
+    <p class="text_header2">معنای گل های سبد گل چوبی:</p>
+    <p class="text_header3">گل رز:</p>
+    <p class="text_p3">هر رنگ گل رز یک معنای جداگانه برای خود دارد، معنای گل رز به کار رفته در این سبد گل با رنگ صورتی،
+        به معنای نماد سپاس گذاری و شادی است.</p>
+    <p class="text_header4">گل آلسترومریا:</p>
+    <p class="text_p4">گل آلسترومریای صورتی به معنای دوست داشتن، محبت و علاقه می‌باشد.</p>
+    <p class="text_header5">گل داوودی:</p>
+    <p class="text_p5">گل داوودی در این سبد گل زیبا به معنای عشق، احساس جوانی و دوستی است.</p>
+
+    <div class="container">
+        <h2>ثبت دیدگاه شما</h2>
+        <form action="#" method="post">
+            <label for="name">نام</label>
+            <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید" required>
+
+            <label for="email">ایمیل</label>
+            <input type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید" required>
+
+            <label for="comment">دیدگاه</label>
+            <textarea id="comment" name="comment" placeholder="متن دیدگاه خود را بنویسید" required></textarea>
+
+            <button type="submit" class="container_btn">ثبت دیدگاه</button>
+        </form>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>
+

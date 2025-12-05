@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/yekan/Yekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Farsi-Digits/Vazir-Light-FD.woff') format('woff');
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    /* background-color:rgba(60,66,139,.04);  */
+    background-color: #f6f6f6;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Yekan, Vazir;
+}
+
+.newmenu {
+    width: 99%;
+    height: 140px;
+    background-color: #6f865c;
+    background-color: rgb(238, 208, 195);
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
+.div_link {
+    text-align: right;
+    position: relative;
+    top: 15px;
+    right: 50px;
+
+}
+
+.div_link_a {
+    color: rgb(100, 0, 38);
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.div_link_span {
+    color: rgb(148, 0, 57);
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.newdiv_text {
+
+    color: #ce4c66;
+    text-align: center;
+    position: relative;
+    ;
+    top: 3px;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.container {
+    direction: rtl;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.box {
+    direction: rtl;
+    background-color: white;
+    width: 330px;
+    height: 320px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 40px 0px;
+    box-shadow: 0px 0px 10px rgb(233, 233, 233);
+}
+
+.icon {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #d1a97b;
+    border-radius: 50%;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h5 {
+    direction: rtl;
+    margin: 30px 0;
+    font-size: medium;
+    font-weight: lighter;
+    color: #313135;
+}
+
+.p1,
+.p2 {
+    direction: rtl;
+    margin: 15px 0p 10px 15px;
+    font-weight: lighter;
+    line-height: 2;
+    color: #313135;
+}
+
+.p2 {
+    direction: rtl;
+    margin-top: 5px;
+}
+
+.line {
+    direction: rtl;
+    width: 250px;
+    margin: auto;
+    position: relative;
+    bottom: 10px;
+    border-bottom: 1px solid #de5f18;
+}
+
+.text {
+    direction: rtl;
+    width: 91%;
+    height: 25px;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    background-color: #e1e3e7;
+    position: relative;
+    left: 60px;
+    top: 70px;
+    font-size: medium;
+    border-radius: 10px;
+    color: #171718;
+}
+
+.container2 {
+    direction: rtl;
+    width: 91%;
+    text-align: right;
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+.custom-paragraph {
+    direction: rtl;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #313135;
+    line-height: 2;
+    word-spacing: 3;
+}

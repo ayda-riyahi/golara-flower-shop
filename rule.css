@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/yekan/Yekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Farsi-Digits/Vazir-Light-FD.woff') format('woff');
+}
+
+body {
+
+    padding: 0px;
+    margin: 0px;
+    /* background-color:rgba(60,66,139,.04);  */
+    background-color: #f6f6f6;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Yekan, Vazir;
+}
+
+.newmenu {
+    width: 99%;
+    height: 140px;
+    background-color: rgb(238, 208, 195);
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
+.div_link {
+    text-align: right;
+    position: relative;
+    top: 15px;
+    right: 50px;
+
+}
+
+.div_link_a {
+    color: rgb(100, 0, 38);
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.div_link_span {
+    color: rgb(148, 0, 57);
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.newdiv_text {
+
+    color: #ce4c66;
+    text-align: center;
+    position: relative;
+    top: 3px;
+    font-size: 34px;
+    font-weight: bold;
+
+}
+
+.custom-paragraph {
+    direction: rtl;
+    text-align: right;
+    font-weight: lighter;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #353434;
+    padding-right: 15px;
+    word-spacing: 4;
+
+}
+
+#p1 {
+    margin-top: 140px;
+}
+
+br {
+    line-height: 4;
+}

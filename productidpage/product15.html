@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product 15</title>
+    <link rel="stylesheet" href="productidpage.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <div class="newmenu">
+        <div class="div_link">
+            <a href="http://127.0.0.1:5500/main.html#" class="div_link_a1">خانه</a>
+            <span class="div_link_span">/</span>
+            <a href="http://127.0.0.1:5500/productpage/jamgol.html" class="div_link_a2">جام گل</a>
+            <span class="div_link_span">/</span>
+            <span class="div_link_span_p">جام گل آنتوریوم</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <img id="largeImg" class="large-img" src="../photo/jam3.webp" alt="عکس بزرگ">
+        <div>
+            <img class="small-img" src="../photo/jam3.webp" alt="عکس کوچک 3">
+            <img class="small-img" src="../photo/jam3-1.webp" alt="عکس کوچک 3">
+            <img class="small-img" src="../photo/jam3-2.webp" alt="عکس کوچک 3">
+        </div>
+    </div>
+    <h2 class="name_table">جام گل آنتوریوم</h2>
+    <table class="table1">
+        <tr class="tr1">
+            <td class="td1" style="padding-right: 42px;">طول</td>
+            <td class="td1" style="padding-right: 40px;">عرض</td>
+            <td class="td1" style="padding-right: 42px;">ارتفاع</td>
+        </tr>
+        <tr class="tr1">
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">75 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">75 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">105 سانتی متر</td>
+        </tr>
+    </table>
+    <table class="table1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">گل ها و آیتم های محصول</td>
+        </tr class="tr1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">10 شاخه گل رز هلندی</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">15 شاخه گل آنتوریوم</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">95 شاخه گل داوودی</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">50 شاخه گل السترومریا</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">برگ و تزئینات لازم </td>
+            <td class="td1-1"></td>
+        </tr>
+    </table>
+    <Span class="price_1">7,350,000</Span>
+    <span class="price_2">تومان</span>
+    <div class="input-container">
+        <button onclick="decrement()" class="btn_input1">-</button>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" class="product-quantity">
+        <button onclick="increment()" class="btn_input2">+</button>
+    </div>
+    <br>
+    <button class="button" onclick="addToCart(this)">افزودن به سبد</button>
+    <div
+        style="width: 95%; margin: auto; border-bottom: 1px solid rgb(189, 189, 189); position: relative; bottom: 400px;">
+    </div>
+    <p class="text_first_header">توضیحات</p>
+    <p class="text_header1">مشخصات ظاهری جام گل آنتوریوم:</p>
+    <p class="text_p1">جام گل بزرگ رز آنتوریوم صورتی با دیزاین بسیار زیبا و خاص یکی از شیک ترین گزینه ها در میان جام گل
+        ها برای مخاطب خاص شما است. این جام گل با تم صورتی و گل های زیبایی که دارد تبدیل به محصولی <br>محبوب و دلخواه شده
+        است. شما با سفارش این محصول میتوانید باعث خوشحالی و شگفت زده شدن مخاطب خاص خود شوید و لبخند را روی لب هایش
+        بنشانید.</p>
+    <p class="text_p2">نظم و چینش این محصول آن را زیباتر کرده که مناسب مراسماتی از قبیل روز دختر، روز پزشک، روز پرستار،
+        تولد و جشن ها می باشد.در جدول زیر با این گل ها و تعدادشان آشنا خواهید شد:</p>
+    <table class="table2">
+        <tr class="tr2">
+            <td class="td2">نام گل</td>
+            <td class="td2">تعداد گل</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل رز هلندی </td>
+            <td class="td2">10 شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل آنتوریوم</td>
+            <td class="td2">15 شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل داوودی</td>
+            <td class="td2">95 شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل السترومریا</td>
+            <td class="td2">50 شاخه</td>
+        </tr>
+    </table>
+    <p class="text_header2">معنای گل های جام گل آنتوریوم:</p>
+    <p class="text_header3">رز هلندی</p>
+    <p class="text_p3">گلهای رز عموما نماد بیان عواطف و عشق، تعهد، زیبایی مجذوب کننده، شیفتگی و سپاسگذاری ست.</p>
+    <p class="text_header4">آنتوریوم</p>
+    <p class="text_p4">به طور کلی آنتوریوم نمادی از قلب عاشق و عشق پاک است. این گل که از انواع گل های لوکس محسوب می شود
+        می تواند هدیه مناسبی برای تبریک و ابراز عشق باشد.</p>
+    <p class="text_header5">داوودی</p>
+    <p class="text_p5">گل داوودی نشانه طول عمر است. هدیه دادن گل داوودی می تواند به این معنا باشد که فرد گیرنده ی گل
+        برای اهدا کننده دوست فوق العاده ای است.</p>
+    <p class="text_header5">السترومریا</p>
+    <p class="text_p5">نمادهای آن از خودگذشتگی (برای خانواده یا یک دوست)، عمر طولانی و مقاومت در برابر سختی های زندگی
+        است.</p>
+
+
+    <div class="container">
+        <h2>ثبت دیدگاه شما</h2>
+        <form action="#" method="post">
+            <label for="name">نام</label>
+            <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید" required>
+
+            <label for="email">ایمیل</label>
+            <input type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید" required>
+
+            <label for="comment">دیدگاه</label>
+            <textarea id="comment" name="comment" placeholder="متن دیدگاه خود را بنویسید" required></textarea>
+
+            <button type="submit" class="container_btn">ثبت دیدگاه</button>
+        </form>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>

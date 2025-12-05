@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت‌نام/ ورود </title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <p class="login-p">ورود/ ثبت نام</p>
+    <div class="container" id="step1">
+        <p class="number">شماره موبایل خود را وارد کنید:</p>
+        <input type="text" id="mobileNumber" class="input-field" placeholder="شماره موبایل" maxlength="11"
+            oninput="validateInput(this)">
+        <p id="invalidMessage" class="invalid-message">شماره موبایل نامعتبر است</p>
+        <p class="message">با عضویت در <b>گل آرا</b>، <a href="http://127.0.0.1:5500/rule.html" class="link">قوانین و
+                مقررات</a> را می پذیرم.</p>
+        <button class="btn" onclick="validateMobile()">ورود</button>
+    </div>
+    <div class="container hidden" id="step2">
+        <p>کد را به این شماره ارسال کردیم: <span id="showMobileNumber"></span></p>
+        <input type="text" id="verificationCode" class="input-field" placeholder="کد را وارد نمایید.....">
+        <button class="btn" onclick="verifyCode()">ارسال</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product 13</title>
+    <link rel="stylesheet" href="productidpage.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <div class="newmenu">
+        <div class="div_link">
+            <a href="http://127.0.0.1:5500/main.html#" class="div_link_a1">خانه</a>
+            <span class="div_link_span">/</span>
+            <a href="http://127.0.0.1:5500/productpage/jamgol.html" class="div_link_a2">جام گل</a>
+            <span class="div_link_span">/</span>
+            <span class="div_link_span_p">جام گل شادی</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <img id="largeImg" class="large-img" src="../photo/jam1.jpg" alt="عکس بزرگ">
+        <div>
+            <img class="small-img" src="../photo/jam1.jpg" alt="عکس کوچک 3">
+            <img class="small-img" src="../photo/jam1-1.jpg" alt="عکس کوچک 3">
+        </div>
+    </div>
+    <h2 class="name_table">جام گل شادی</h2>
+    <table class="table1">
+        <tr class="tr1">
+            <td class="td1" style="padding-right: 42px;">طول</td>
+            <td class="td1" style="padding-right: 40px;">عرض</td>
+            <td class="td1" style="padding-right: 42px;">ارتفاع</td>
+        </tr>
+        <tr class="tr1">
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">60 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">60 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">84 سانتی متر</td>
+        </tr>
+    </table>
+    <table class="table1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">گل ها و آیتم های محصول</td>
+        </tr class="tr1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">7 شاخه گل رز هلندی</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">4 شاخه گل آنتوریوم</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">7 شاخه گل ارکیده</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">5 شاخه گل داوودی</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">برگ و تزئینات لازم </td>
+            <td class="td1-1"></td>
+        </tr>
+    </table>
+    <Span class="price_1">5,000,000</Span>
+    <span class="price_2">تومان</span>
+    <div class="input-container">
+        <button onclick="decrement()" class="btn_input1">-</button>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" class="product-quantity">
+        <button onclick="increment()" class="btn_input2">+</button>
+    </div>
+    <br>
+    <button class="button" onclick="addToCart(this)">افزودن به سبد</button>
+    <div
+        style="width: 95%; margin: auto; border-bottom: 1px solid rgb(189, 189, 189); position: relative; bottom: 400px;">
+    </div>
+    <p class="text_first_header">توضیحات</p>
+    <p class="text_header1">مشخصات ظاهری جام گل شادی:</p>
+    <p class="text_p1">به گل‌های موجود در جام گل شادی چشم بدوزید. احساس شما از دیدن این گلبرگ‌های خوشرنگ و عطرآگین چیست؟
+        این جام گل به دلیل رنگ بندی شاد گل‌هایش، جام شادی نام گرفته است. <br> گویا هر یک از گلبرگ‌ها، احساس مثبت و
+        سرزندگی را با خود حمل می‌کنند.</p>
+    <p class="text_p2">جام گل شادی، هدیه‌ای جذاب و لاکچری برای مخاطبان خاص شما است.در جدول زیر با این گل ها و تعدادشان
+        آشنا خواهید شد:</p>
+    <table class="table2">
+        <tr class="tr2">
+            <td class="td2">نام گل</td>
+            <td class="td2">تعداد گل</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل رز هلندی </td>
+            <td class="td2">7 شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل آنتوریوم</td>
+            <td class="td2">4 شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل ارکیده</td>
+            <td class="td2">7 شاخه</td>
+        </tr>
+        <tr class="tr2">
+            <td class="td2">گل داوودی</td>
+            <td class="td2">5 شاخه</td>
+        </tr>
+    </table>
+    <p class="text_header2">معنای گل های جام گل شادی:</p>
+    <p class="text_header3">رز هلندی</p>
+    <p class="text_p3">عشق و دوست داشتن</p>
+    <p class="text_header4">آنتوریوم</p>
+    <p class="text_p4">عشق، خلوص و معصومیت</p>
+    <p class="text_header5">ارکیده</p>
+    <p class="text_p5">افتخارف زیبایی و ظرافت</p>
+    <p class="text_header5">داوودی</p>
+    <p class="text_p5">انرژی مثبت، تحسین، حمایت و قدردانی</p>
+
+
+    <div class="container">
+        <h2>ثبت دیدگاه شما</h2>
+        <form action="#" method="post">
+            <label for="name">نام</label>
+            <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید" required>
+
+            <label for="email">ایمیل</label>
+            <input type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید" required>
+
+            <label for="comment">دیدگاه</label>
+            <textarea id="comment" name="comment" placeholder="متن دیدگاه خود را بنویسید" required></textarea>
+
+            <button type="submit" class="container_btn">ثبت دیدگاه</button>
+        </form>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>

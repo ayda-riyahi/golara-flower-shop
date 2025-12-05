@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product 19</title>
+    <link rel="stylesheet" href="productidpage.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <div class="newmenu">
+        <div class="div_link">
+            <a href="http://127.0.0.1:5500/main.html#" class="div_link_a1">خانه</a>
+            <span class="div_link_span">/</span>
+            <a href="http://127.0.0.1:5500/productpage/giahan.html" class="div_link_a2">گیاه آپارتمانی</a>
+            <span class="div_link_span">/</span>
+            <span class="div_link_span_p">ورزیا زیرا</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <img id="largeImg" class="large-img" src="../photo/giahan1.jpg" alt="عکس بزرگ">
+        <div>
+            <img class="small-img" src="../photo/giahan1.jpg" alt="عکس کوچک 1">
+            <img class="small-img" src="../photo/giahan1-1.webp" alt="عکس کوچک 2">
+            <img class="small-img" src="../photo/giahan1-2.webp" alt="عکس کوچک 3">
+        </div>
+    </div>
+    <h2 class="name_table">ورزیا زبرا</h2>
+    <table class="table1">
+        <tr class="tr1">
+            <td class="td1" style="padding-right: 42px;">طول</td>
+            <td class="td1" style="padding-right: 40px;">عرض</td>
+            <td class="td1" style="padding-right: 42px;">ارتفاع</td>
+        </tr>
+        <tr class="tr1">
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">50 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">50 سانتی متر</td>
+            <td class="td1" style="border: 1px solid rgb(221, 221, 221);">45 سانتی متر</td>
+        </tr>
+    </table>
+    <table class="table1-1">
+        <tr class="tr1-1">
+            <td class="td1-1"> ویژگی های محصول</td>
+        </tr class="tr1-1">
+        <tr class="tr1-1">
+            <td class="td1-1">آب: هفتگی</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">سختی نگهداری: آسان</td>
+        </tr>
+        <tr class="tr1-1">
+            <td class="td1-1">نور: غیر مستقیم ولی پر نور، کم و یا مصنوعی</td>
+        </tr>
+        <td class="td1-1">ویژگی: دوست دار حیوانات</td>
+        <td class="td1-1"></td>
+        </tr>
+    </table>
+    <Span class="price_1">2,500,000</Span>
+    <span class="price_2">تومان</span>
+    <div class="input-container">
+        <button onclick="decrement()" class="btn_input1">-</button>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" class="product-quantity">
+        <button onclick="increment()" class="btn_input2">+</button>
+    </div>
+    <br>
+    <button class="button" onclick="addToCart(this)">افزودن به سبد</button>
+    <div
+        style="width: 95%; margin: auto; border-bottom: 1px solid rgb(189, 189, 189); position: relative; bottom: 400px;">
+    </div>
+    <p class="text_first_header">توضیحات</p>
+    <p class="text_header1">نگاهی بر زیبایی های ورزیا زبرا:</p>
+    <p class="text_p1">نام زبرا که در ادامه اسم گیاه ورزیا آمده به شما می‌گوید قرار است طرحی گوره‌خری را روی آن ببینید
+        که با نگاهی به برگ‌های آن، این طرح به‌طور کامل برایتان آشکار می‌شود. آن‌قدر این طرح گوره‌خری برگ‌های <br> ورزیا
+        زبرا جذاب است که حس می‌کنید نقاشی ماهر آن را کشیده است.</p>
+    <p class="text_p2">حفظ طراوت و شادابی گیاه ورزیا زبرا در گروی چگونگی نگه‌داری شماست که خوشبختانه به‌راحتی قابل انجام
+        است.</p>
+
+    <p class="text_header2" style="margin-top: 50px;">روش نگه‌داری از گیاه ورزیا زبرا:</p>
+
+    <p class="text_header3">آبیاری</p>
+    <p class="text_p3">در فاصله بین دو آبیاری باید خاک گیاه خشک شود.</p>
+    <p class="text_header4">خاک</p>
+    <p class="text_p4">خاکی با قدرت زهکشی بالا مانند پیت‌ماس و پرلیت</p>
+    <p class="text_header5">دما</p>
+    <p class="text_p5">بیشتر از 15 درجه سانتی‌گراد</p>
+    <p class="text_header5">روش مناسب تکثیر</p>
+    <p class="text_p5">کاشت بذر</p>
+    <p class="text_header5">روش تامین رطوبت</p>
+    <p class="text_p5">قراردادن ورزیا زبرا روی سینی که دارای سنگ‌ریزه و آب است.</p>
+    <p class="text_header5">میزان رطوبت مورد نیاز</p>
+    <p class="text_p5">70 تا 90 درصد</p>
+
+
+    <div class="container">
+        <h2>ثبت دیدگاه شما</h2>
+        <form action="#" method="post">
+            <label for="name">نام</label>
+            <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید" required>
+
+            <label for="email">ایمیل</label>
+            <input type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید" required>
+
+            <label for="comment">دیدگاه</label>
+            <textarea id="comment" name="comment" placeholder="متن دیدگاه خود را بنویسید" required></textarea>
+
+            <button type="submit" class="container_btn">ثبت دیدگاه</button>
+        </form>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>
